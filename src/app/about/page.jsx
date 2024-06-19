@@ -5,31 +5,24 @@ export default function About() {
     <div className='max-w-6xl p-3 mx-auto space-y-4'>
       <h1 className='text-2xl font-medium text-amber-600'>About</h1>
       <p>
-        Welcome to our movie database website! We are a team of passionate movie
-        enthusiasts who have come together to create a one-stop destination for
-        all your movie-related needs. Our website is designed to provide you
-        with a comprehensive database of movies from all around the world, along
-        with the latest news, reviews, and trailers. Our movie database is
-        constantly updated with new releases, ensuring that you have access to
-        the latest and greatest in the world of cinema. You can search for
-        movies by title, director, actor, genre, or release date, making it easy
-        to find the perfect movie for any occasion.
+        영화 데이터베이스 웹사이트에 오신 것을 환영합니다! 우리는 영화와 관련된
+        모든 요구 사항을 충족할 수 있는 원스톱 목적지를 만들기 위해 함께 모인
+        열정적인 영화 애호가들로 구성된 팀입니다. 저희 웹사이트는 최신 뉴스,
+        리뷰, 예고편과 함께 전 세계 영화에 대한 포괄적인 데이터베이스를
+        제공하도록 설계되었습니다. 우리의 영화 데이터베이스는 새로운 개봉작으로
+        지속적으로 업데이트되어 귀하가 영화계의 최신 및 최고의 영화에 액세스할
+        수 있도록 보장합니다. 제목, 감독, 배우, 장르, 개봉일별로 영화를 검색할
+        수 있어 어떤 경우에도 딱 맞는 영화를 쉽게 찾을 수 있습니다.
       </p>
       <p>
-        In addition to our extensive movie database, we also offer a platform
-        for movie lovers to connect and share their thoughts on the latest
-        releases. Our community section includes a forum where you can discuss
-        your favorite films with like-minded individuals and read reviews and
-        ratings from other users. We also have a section dedicated to movie news
-        and trailers, keeping you updated with the latest happenings in the
-        world of cinema.
+        광범위한 영화 데이터베이스 외에도 영화 애호가들이 최신 개봉작에 대한
+        생각을 연결하고 공유할 수 있는 플랫폼도 제공합니다. 커뮤니티 섹션에는
+        같은 생각을 가진 사람들과 좋아하는 영화에 대해 토론하고 다른 사용자의
+        리뷰와 평가를 읽을 수 있는 포럼이 포함되어 있습니다. 또한 영화 뉴스와
+        예고편 전용 섹션도 있어 영화 세계의 최신 소식을 계속 업데이트해 드립니다.
       </p>
       <p>
-        Thank you for visiting our website and we hope you enjoy your time
-        browsing through our movie database. If you have any feedback or
-        suggestions, please feel free to contact us. We are always looking for
-        ways to improve and enhance the user experience on our website. Happy
-        browsing!
+      저희 웹사이트를 방문해 주셔서 감사드리며 영화 데이터베이스를 탐색하면서 즐거운 시간을 보내시기 바랍니다. 피드백이나 제안 사항이 있으시면 언제든지 저희에게 연락해 주세요. 우리는 항상 웹사이트의 사용자 경험을 개선하고 향상시킬 수 있는 방법을 찾고 있습니다. 즐겁게 이용해 주세요!
       </p>
     </div>
   );
