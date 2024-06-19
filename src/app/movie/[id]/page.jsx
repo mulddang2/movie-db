@@ -1,10 +1,9 @@
 import Image from 'next/image';
-import React from 'react';
 
 export default async function MoviePage({ params }) {
   const movieId = params.id;
   const res = await fetch(
-    `https://api.themoviedb.org/3/movie/${movieId}?api_key=${process.env.API_KEY}`
+    `https://api.themoviedb.org/3/movie/${movieId}?api_key=${process.env.API_KEY}&language=ko-KR`
   );
   const movie = await res.json();
   return (
@@ -24,7 +23,9 @@ export default async function MoviePage({ params }) {
           <h2 className='mb-3 text-lg font-bold'>
             {movie.title || movie.name}
           </h2>
-          <p className='mb-3 text-lg'>{movie.overview}</p>
+          <p className='mb-3 text-lg'>
+            {movie.overview ? movie.overview : '상세 정보 준비 중...'}
+          </p>
           <p>
             <span className='mr-1 font-semibold'>Date Released:</span>
             {movie.release_date || movie.first_air_date}
