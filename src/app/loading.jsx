@@ -1,4 +1,4 @@
-export default function loading() {
+export default function Loading() {
   return (
     <div className='flex justify-center mt-44'>
       {/* eslint-disable-next-line @next/next/no-img-element */}
