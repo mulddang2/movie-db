@@ -23,8 +23,7 @@ export default function Home({ searchParams }) {
             : `/trending/movie/week`
         }?api_key=${NEXT_PUBLIC_API_KEY}&language=ko-KR&page=1`
       ).then((res) => res.json()),
-    staleTime: 1000,
-    cacheTime: 1000 * 60 * 10,
+    cacheTime: 1000 * 60 * 30,
   });
 
   console.log(movieData);
